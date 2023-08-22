@@ -3,7 +3,7 @@ import express from 'express';
 import data from './data/Sample_data.js'
 
 const app = express();
-const port = 3000;
+const PORT = 3000;
 // app.use(express.text());
 app.use(express.json())
 
