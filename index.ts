@@ -102,6 +102,10 @@ app.use(express.json())
         }
     })
 
+    //health
+    app.get("/health", function (req, res) {
+	res.sendStatus(200);
+    })
 
 
     // app.get('/students?mark=mark&college=colName', (req, res)=>{
